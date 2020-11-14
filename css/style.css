@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.top-container{
+/* .top-container{
     background-color: #e8ffff;
     height: 200px;
     width: 200px;
@@ -30,4 +30,40 @@ h1{
     width: 200px;
     border:solid 10px;
     margin-left: 500px;
+} */
+
+
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block;
+    position: relative;
+    left: 200px; */
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block;
+    position: relative;
+    right: 100px; */
+    position: absolute;
+    left:100px;
+    top: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block;
+    position: relative;
+    right: 100px; */
 }
