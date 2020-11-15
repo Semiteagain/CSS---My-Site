@@ -42,7 +42,11 @@ h1{
  /* Relative position maintain the ghost position of the image or content while absolute change
  change the flow of the document by taking the image away from it original postion as 
  if it does not exist there before and can also be move around its parent element 
- which is the body in most cases*/
+ which is the body in most cases
+ NOTE: the parent of the element is the closest to the child of the element.
+ parent, child and children are closest to one another.
+ Fixed to its position and relative to the body of the website
+ */
 .red {
     background-color: red;
     height: 100px;
