@@ -1,6 +1,10 @@
 body {
     margin: 0;
 }
+ 
+
+    /* *************start margin ************** */
+    /* Adding content size, padding and border to get the acqurate size of the image */
 
 /* .top-container{
     background-color: #e8ffff;
@@ -32,8 +36,13 @@ h1{
     margin-left: 500px;
 } */
 
+    /* *************end margin ************** */
 
-
+ /* ************* Positioning relative & absolute start ************** */
+ /* Relative position maintain the ghost position of the image or content while absolute change
+ change the flow of the document by taking the image away from it original postion as 
+ if it does not exist there before and can also be move around its parent element 
+ which is the body in most cases*/
 .red {
     background-color: red;
     height: 100px;
@@ -51,9 +60,12 @@ h1{
     background-color: blue;
     height: 100px;
     width: 100px;
+   
     /* display: inline-block;
     position: relative;
     right: 100px; */
+    
+
     position: absolute;
     left:100px;
     top: 100px;
@@ -67,3 +79,5 @@ h1{
     position: relative;
     right: 100px; */
 }
+
+    /* *************end here Positioning relative & absolute ************** */
