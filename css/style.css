@@ -1,40 +1,48 @@
 body {
+    color: #40514e;
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+
 }
  
 
     /* *************start margin ************** */
     /* Adding content size, padding and border to get the acqurate size of the image */
 
-/* .top-container{
+.top-container{
     background-color: #e8ffff;
-    height: 200px;
+    /* height: 200px;
     width: 200px;
     padding: 20px;
     border: solid 10px;
-    border-color: #000000;
+    border-color: #000000; */
 }
 
 h1{
-    margin-top: 0px;
+    margin-top: 0;
 }
 
+.subheading {
+    line-height: 2;
+    font-weight: normal;
+}
 .middle-container{
     background-color: #a6f6f1;
-    height: 200px;
+    /* height: 200px;
     width: 200px;
     border: solid 20px;
-    margin-left: 260px;
+    margin-left: 260px; */
 }
 
 
 .bottom-container{
     background-color: #41AEA9;
-    height: 200px;
+    /* height: 200px;
     width: 200px;
     border:solid 10px;
-    margin-left: 500px;
-} */
+    margin-left: 500px; */
+}
 
     /* *************end margin ************** */
 
