@@ -2,8 +2,8 @@ body {
     color: #40514e;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather',serif;
-
+    font-family: 'Merriweather', serif;
+   
 }
  
 
@@ -18,11 +18,29 @@ body {
     border: solid 10px;
     border-color: #000000; */
 }
+.cloud-top {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.cloud-down{
+    display: inline-block;
+    position: absolute;
+}
 
 h1{
     margin: 20px;
+    font-family: 'Sacramento', cursive;
 }
+ h2 {
+    font-family: 'Montserrat', sans-serif;
+ }
 
+
+ h3 {
+   
+    font-family: 'Montserrat', sans-serif;
+
+ }
 .profileImage {
     width: 15%;
     height: 20%;
